@@ -10,6 +10,11 @@ a:hover {
   text-decoration: none;
 }
 
+<style type="text/css">
+ img.c2 {width:35%; height:35%}
+ img.c1 {width:35%; height:35%}
+</style>
+
 h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
@@ -29,7 +34,7 @@ h1, h2 {
         overflow: auto;
         }
     #nav li {
-        float: left;
+        float: center;
         padding: 10px;
         }
     #nav li:hover {
