@@ -6,28 +6,14 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
   text-align: left;
-}
-
-h1 {
   font-size: 80px;
-}
-
-h2 {
-  font-size: 40px;
   margin-top: 0;
 }
+
 
 p.important {
   font-size: 1.5em;
   font-weight: 900;
-}
-
-.content-wrap {
-  max-width: 550px;
-  margin: 0 auto;
-  padding: 50px;
-  overflow: hidden;
-  text-align: left;
 }
 
 footer {
