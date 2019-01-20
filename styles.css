@@ -19,8 +19,23 @@ h1, h2 {
 }
 
 /* Creating a table settings*/
-
-
+#tb_moddule {
+  width: auto;
+}
+/* Defining navigation bar */
+<style>
+    #nav {
+        background: lightgray;
+        overflow: auto;
+        }
+    #nav li {
+        float: left;
+        padding: 10px;
+        }
+    #nav li:hover {
+        background: gray;
+        }
+</style>
 
 p.important {
   font-size: 1.5em;
@@ -31,7 +46,7 @@ img.inset{
   display: block;
   margin-left: 1em;
 }
-
+/* List Setting Ordered List*/
 ol {
   margin: 0 1.5em 0 1.5em;
 }
