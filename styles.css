@@ -1,6 +1,8 @@
 body {
 background-color: lightblue
+  font-family: sans-serif;
 }
+
 
 h1, h2 {
   font-family: 'Caveat', cursive;
@@ -23,4 +25,16 @@ footer {
 img.inset{
   display: block;
   margin-left: 1em;
+}
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+header h1,
+header h2 {
+  color: #EDF2F4;
 }
