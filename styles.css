@@ -24,18 +24,22 @@ h1, h2 {
 }
 
 /* Creating a table settings*/
-#tb_moddule {
+<style>
+    #tb_moddule{
   width: auto;
+  height: 3px;
 }
+</style>
+
 /* Defining navigation bar */
 <style>
     #nav {
-        background: lightgray;
+        background: lightblue;
         overflow: auto;
         }
     #nav li {
         float: center;
-        padding: 10px;
+        padding: 12px;
         }
     #nav li:hover {
         background: gray;
