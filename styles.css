@@ -29,8 +29,7 @@ img.inset{
 
 /* Header & Footer
 ------------------------------------*/
-header,
-footer {
+header{
   background: #2B2D42;
   color: #8D99AE;
 }
