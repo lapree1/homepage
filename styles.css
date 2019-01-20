@@ -25,7 +25,7 @@ h1, h2 {
 }
 </style>
 
-<style>
+/*<style>
 table {
 width: 600px;
 height: 200px;
@@ -35,7 +35,7 @@ margin-left: auto;
 margin-right: auto;"
 border="4" cellspacing="4" cellpadding="5">
 }
-</style>
+</style>*/
 
 
 /* Defining navigation bar */
@@ -43,14 +43,21 @@ border="4" cellspacing="4" cellpadding="5">
     #nav {
         background: lightblue;
         overflow: auto;
+        background-color: green;
+        text-align: center;
+        display: inline;
+        width: 19%;
+        float: left;
+        margin-right: .5em;
+    }
         }
     #nav li {
         float: center;
         padding: 12px;
-        }
+    }
     #nav li:hover {
         background: gray;
-        }
+    }
 </style>
 
 p.important {
