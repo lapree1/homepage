@@ -3,13 +3,6 @@ background-color: lightblue
   font-family: sans-serif;
 }
 
-a {
-  color: #EF233C;
-}
-a:hover {
-  text-decoration: none;
-}
-
 <style type="text/css">
  img.c2 {width:35%; height:35%}
  img.c1 {width:35%; height:35%}
