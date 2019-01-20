@@ -11,6 +11,11 @@ h1, h2 {
   margin-top: 0;
 }
 
+li{
+width: auto;
+word-wrap: normal; 
+}
+
 /* Creating a table settings*/
 <style>
     #tb_moddule{
