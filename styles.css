@@ -13,7 +13,7 @@ h1, h2 {
 
 li{
 width: auto;
-word-wrap: normal; 
+word-wrap: normal;
 }
 
 /* Creating a table settings*/
@@ -22,6 +22,7 @@ word-wrap: normal;
   width: auto;
   height: 20px;
   text-align: center;
+  align-items: center;
 }
 table td, table td * {
     vertical-align: top;
