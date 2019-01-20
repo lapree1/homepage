@@ -7,7 +7,7 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
   text-align:justify;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0;
 }
 
@@ -15,7 +15,7 @@ h1, h2 {
 <style>
     #tb_moddule{
   width: auto;
-  height: 15px;
+  height: 20px;
   text-align: center;
 }
 table td, table td * {
