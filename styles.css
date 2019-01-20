@@ -16,6 +16,9 @@ h2 {
   margin-top: 0;
 }
 
+p.important {
+  font-size: 1.5em;
+}
 
 .content-wrap {
   max-width: 950px;
