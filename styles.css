@@ -19,3 +19,8 @@ p.important {
 footer {
   text-align: center;
 }
+
+img.inset{
+  display: block;
+  margin-left: 1em;
+}
