@@ -5,6 +5,9 @@ body {
      margin-top: 40px;
      background: url(bg3-paint.jpg) no-repeat fixed center;
 }
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
+
 /*Sections modifications*/
  h1, h2 {
      font-family: 'Caveat';
