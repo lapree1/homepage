@@ -33,11 +33,19 @@ a * {
      word-wrap: normal;
 }
 /* Creating a table settings*/
- table td, table td * {
+ table td {
      vertical-align: top;
      align-items: center;
      width: auto;
 }
+
+
+
+
+
+
+
+
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
  nav {
