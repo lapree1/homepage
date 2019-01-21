@@ -46,18 +46,18 @@ a * {
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
 .navibar{
- text-align: left;
- align-items: center;
- box-shadow: 0 0 25px 0 #000;
- position: fixed;
- height: 10px;
- padding: 30px;
- overflow: hidden;
- position: fixed;
- top: 0;
- left: 0;
- right: 0;
- display: inline;
+  font-weight: bold;
+  text-align: justify;
+  align-items: center;
+  box-shadow: 0 0 25px 0 #000;
+  position: fixed;
+  height: 10px;
+  padding: 30px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: inline;
 }
 
 /* Add a color to the active/current link */
