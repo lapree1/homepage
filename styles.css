@@ -47,7 +47,8 @@ a * {
  align-items: center;
  box-shadow: 0 0 25px 0 #000;
  position: fixed;
- height: 80px;
+ height: 35px;
+ padding: 30px;
  background-color: #333;
  overflow: hidden;
  position: fixed;
@@ -55,7 +56,6 @@ a * {
  left: 0;
  right: 0;
  display: inline;
- align-items: center;
 }
 
 /* Add a color to the active/current link */
