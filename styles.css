@@ -1,3 +1,7 @@
+header img {
+  height: 80px;
+}
+
 body {
      height: 125vh;
      background-color: black;
@@ -5,7 +9,7 @@ body {
      font-family: 'Palatino' fantasy;
      margin-top: 80px;
      background: url(bg3-paint.jpg) no-repeat fixed center;
-     padding: 30px
+     padding: 30px;
 }
 
 .link {
