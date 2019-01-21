@@ -51,6 +51,11 @@ a * {
      display: inline;
      align-items: center;
 }
+
+.navibar{
+  background-color: orange;
+  text-align: left;
+}
 /* Style the links inside the navigation bar */
  .nav a {
      float: left;
