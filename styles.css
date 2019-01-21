@@ -4,9 +4,9 @@ body {
   font-family: sans-serif;
   margin-top: 80px;
   padding: 30px;
-  background-image: image(bg1-leather.jpg);
+  background: url(bg1-leather.jpg);
   }
-}
+
 
 h1, h2 {
   font-family: 'Caveat', cursive;
