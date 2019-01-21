@@ -7,12 +7,17 @@ body {
      background: url(bg3-paint.jpg) no-repeat fixed center;
      padding: 30px
 }
-.link { color: #FF0000; } /* CSS link color (red) */
-.link:hover { color: #00FF00; } /* CSS link hover (green) */
+.link {
+  color: #FF0000;
+} /* CSS link color (red) */
+
+.link:hover {
+   color: #00FF00;
+} /* CSS link hover (green) */
+
 a * {
   color: orange
 }
-
 
 /*Sections modifications*/
  h1, h2 {
@@ -46,10 +51,6 @@ a * {
      align-items: center;
 }
 
- inset{
-     display: block;
-     margin-left: 1em;
-}
 /* List Setting Ordered List*/
  ol {
      margin: 0 1.5em 0 1.5em;
