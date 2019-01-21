@@ -38,7 +38,7 @@ table td, table td * {
 /* Defining navigation bar */
 <style>
 /* Add a black background color to the top navigation */
-.nav {
+nav {
   background-color: #333;
   overflow: hidden;
   background-color: white;
@@ -47,6 +47,8 @@ table td, table td * {
   left: 0;
   right: 0;
   height: 80px;
+  display: inline;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
