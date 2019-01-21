@@ -77,8 +77,7 @@ a * {
 }
 /* Wrapping the intro content */
 .content-wrap {
-  max-width: 950px;
-  margin: 0 auto;
+  font-style: Palatino normal;
   overflow: hidden;
 }
 
