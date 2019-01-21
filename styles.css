@@ -7,12 +7,13 @@ body {
      background: url(bg3-paint.jpg) no-repeat fixed center;
      padding: 30px
 }
+
 .link {
   color: #FF0000;
 } /* CSS link color (red) */
 
 .link:hover {
-   color: #00FF00;
+  color: #00FF00;
 } /* CSS link hover (green) */
 
 a * {
@@ -33,19 +34,11 @@ a * {
      word-wrap: normal;
 }
 /* Creating a table settings*/
- table td {
+ table td, table td * {
      vertical-align: top;
      align-items: center;
      width: auto;
 }
-
-
-
-
-
-
-
-
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
  nav {
@@ -58,11 +51,38 @@ a * {
      display: inline;
      align-items: center;
 }
+/* Style the links inside the navigation bar */
+ .nav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+/* Change the color of links on hover */
+ .nav a:hover {
+     background-color: #ddd;
+     color: black;
+}
+/* Add a color to the active/current link */
+ .active {
+     background-color: white;
+     color: white;
+}
 
 /* List Setting Ordered List*/
  ol {
      margin: 0 1.5em 0 1.5em;
 }
+/* Wrapping the intro content */
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
 /* Header & Footer ------------------------------------*/
  header{
      background: #2B2D42;
