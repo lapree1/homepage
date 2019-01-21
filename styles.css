@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   margin-top: 80px;
   padding: 30px;
-  background: radial-gradient(circle, black, white);
+  background: url(bg3-paint.jpg) no-repeat fixed center;
   }
 
 
