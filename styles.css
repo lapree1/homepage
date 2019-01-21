@@ -46,9 +46,16 @@ a * {
  text-align: left;
  align-items: center;
  box-shadow: 0 0 25px 0 #000;
- background-color: white;
  position: fixed;
- height: 80px
+ height: 80px;
+ background-color: #333;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ display: inline;
+ align-items: center;
 }
 
 /* Add a color to the active/current link */
