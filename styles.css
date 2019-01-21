@@ -46,7 +46,6 @@ a * {
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
 .navibar{
- background-color: orange;
  text-align: left;
  align-items: center;
  box-shadow: 0 0 25px 0 #000;
