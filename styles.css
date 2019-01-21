@@ -1,7 +1,7 @@
 body {
      height: 125vh;
      background-color: lightblue;
-     font-family: Palatino;
+     font-family: 'Palatino' fantasy;
      margin-top: 40px;
      background: url(bg3-paint.jpg) no-repeat fixed center;
 }
