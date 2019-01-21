@@ -4,6 +4,7 @@ body {
      font-family: 'Palatino' fantasy;
      margin-top: 40px;
      background: url(bg3-paint.jpg) no-repeat fixed center;
+     padding: 30px
 }
 .link { color: #FF0000; } /* CSS link color (red) */
 .link:hover { color: #00FF00; } /* CSS link hover (green) */
@@ -22,14 +23,10 @@ body {
      word-wrap: normal;
 }
 /* Creating a table settings*/
- #tb_moddule{
-     width: auto;
-     height: 20px;
-     text-align: center;
-}
  table td, table td * {
      vertical-align: top;
      align-items: center;
+     width: auto;
 }
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
