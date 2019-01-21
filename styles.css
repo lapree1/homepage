@@ -7,7 +7,7 @@ body {
 }
 /*Sections modifications*/
  h1, h2 {
-     font-family: 'Caveat', cursive;
+     font-family: 'Caveat';
      font-weight: 400;
      text-align:justify;
      font-size: 35px;
@@ -75,4 +75,3 @@ body {
  footer {
      text-align: center;
 }
- 
