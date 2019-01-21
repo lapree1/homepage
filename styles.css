@@ -85,6 +85,7 @@ ol {
 header{
   background: #2B2D42;
   color: #8D99AE;
+  display: inline;
 }
 header h1,
 header h2 {
