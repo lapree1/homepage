@@ -50,7 +50,7 @@ body {
 
 .navibar a {
   float: left;
-  color: darkgreeb;
+  color: darkgreen;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -86,9 +86,10 @@ body {
 }
 
 .myintro {
+    font-family: Palatino fantasy;
     padding-left: 45px;
     padding-right: 45px;
-    font-family: Palatino;
+
     margin-top: 10px;
 }
 
