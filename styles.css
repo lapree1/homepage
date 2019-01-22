@@ -35,6 +35,17 @@ body {
      align-items: center;
      width: auto;
 }
+
+table.wkmods {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+}
+
+table.wkmods tr:nth-child(even) {
+  background: #D0E4F5;
+}
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
 .navibar {
