@@ -30,7 +30,7 @@ body {
      word-wrap: normal;
 }
 /* Creating a table settings*/
- table td, table td {
+ table td {
      vertical-align: top;
      align-items: center;
      width: auto;
@@ -55,6 +55,12 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+}
+
+.weeks td {
+  text-align: center;
+  font-weight: bold;
+  color: pink;
 }
 
 /* Change the color of links on hover */
