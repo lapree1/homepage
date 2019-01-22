@@ -5,9 +5,9 @@ header img {
 body {
      height: 125vh;
      background-color: black;
-     background-size: cover;
      font-family: Palatino fantasy;
-     background: url(bg3-paint.jpg) no-repeat fixed center;
+     background-image: url(bg3-paint.jpg) no-repeat fixed center;
+     background-size: cover;
      margin-top: 80px;
      padding: 30px;
 }
@@ -19,7 +19,6 @@ body {
 .link:hover {
   color: #00FF00;
 } /* CSS link hover (green) */
-
 
 /*Sections modifications*/
  h1, h2 {
@@ -45,14 +44,13 @@ body {
 .navibar {
   font-weight: bold;
   align-items: center;
-  box-shadow: 0 0 25px 0 #000;
+/*  box-shadow: 0 0 25px 0 #000;*/
   position: static;
   overflow: hidden;
   top: 0;
   left: 0;
   right: 0;
-/*  height: 10px; */
-/*  display: inline; */
+  margin-top: auto;
 }
 
 .navibar a {
