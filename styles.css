@@ -1,8 +1,7 @@
 body {
      height: 125vh;
      background-color: black;
-     font-family: Palatino fantasy;
-     background: url(bg3-paint.jpg) no-repeat fixed center;
+     background: url(bg3-paint.jpg) no-repeat center;
      background-size: cover;
      margin-top: 80px;
      padding: 30px;
@@ -16,8 +15,8 @@ body {
   color: #00FF00;
 } /* CSS link hover (green) */
 
-/*Sections modifications*/
- h1, h2 {
+/* Header Sections modifications*/
+h1  {
      font-family: 'Caveat';
      font-weight: 400;
      text-align:justify;
@@ -25,6 +24,18 @@ body {
      margin-top: 0;
      color: #EDF2F4;
 }
+
+h2  {
+  font-family: 'Caveat';
+  font-weight: 400;
+  text-align:justify;
+  font-size: 35px;
+  margin-top: 0;
+  color: #EDF2F4;
+}
+
+
+
  li {
      width: auto;
      word-wrap: normal;
