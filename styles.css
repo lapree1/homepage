@@ -46,7 +46,10 @@ body {
   left: 0;
   right: 0;
   margin-top: auto;
-  background: url(bg2-vista.jpg) center
+}
+
+.table{
+    background: url(bg2-vista.jpg) center
 }
 
 .navibar a {
