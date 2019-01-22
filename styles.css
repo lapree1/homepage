@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 
-.weeks table td{
+.weeks table tr{
   text-align: center;
   font-weight: bold;
   color: pink;
