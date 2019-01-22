@@ -68,11 +68,6 @@ table.wkmods tr:nth-child(even) {
   font-size: 20px;
 }
 
-.weeks table tr{
-  text-align: center;
-  font-weight: bold;
-  color: pink;
-}
 
 /* Change the color of links on hover */
 .navibar a:hover {
@@ -100,6 +95,7 @@ table.wkmods tr:nth-child(even) {
 /* Wrapping the intro content */
 .content-wrap {
   overflow: hidden;
+  font-weight: bold;
 
 }
 
