@@ -6,8 +6,8 @@ body {
      height: 125vh;
      background-color: black;
      background-size: cover;
-     font-family: 'Palatino' fantasy;
-     background image: url(bg3-paint.jpg) no-repeat fixed center;
+     font-family: Palatino fantasy;
+     background: url(bg3-paint.jpg) no-repeat fixed center;
      margin-top: 80px;
      padding: 30px;
 }
