@@ -85,6 +85,10 @@ body {
 
 }
 
+.important {
+  font-style: italic;
+}
+
 .myintro {
     font-family: Palatino fantasy;
     padding-left: 45px;
