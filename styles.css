@@ -3,7 +3,7 @@ body {
      background-color: black;
      background: url(bg3-paint.jpg) no-repeat fixed center;
      background-size: cover;
-     margin-top: 80px;
+     /* margin-top: 80px; */
      padding: 30px;
 }
 
@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 
-.weeks td {
+.weeks table td{
   text-align: center;
   font-weight: bold;
   color: pink;
@@ -99,7 +99,6 @@ body {
     font-family: Palatino fantasy;
     padding-left: 45px;
     padding-right: 45px;
-
     margin-top: 10px;
 }
 
