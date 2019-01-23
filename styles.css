@@ -43,12 +43,12 @@ table.wkmods {
   box-shadow: 0 0 25px 0 #7ccb29;
   width: auto;
   height: 200px;"
-  border="4" 
+  border="4"
 }
 
 table.wkmods tr:nth-child(even) {
   background: #D0E4F5;
-  background-color: #2B2D42;
+  background-color: #47C91FE6;
 }
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
