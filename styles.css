@@ -17,9 +17,13 @@ img {
    clip-path: inset(10px 20px 30px 40px);
 }
 
-.c2{
+.c2 {
   border-radius: 40px;
    clip-path: inset(10px 20px 30px 40px);
+}
+
+.stories {
+
 }
 
 .link {
