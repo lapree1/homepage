@@ -12,6 +12,14 @@ img {
   height:35%;
 }
 
+.c1 {
+  border-radius: 40px
+}
+
+.c2{
+  border-radius: 40px
+}
+
 .link {
   color: #FF0000;
 } /* CSS link color (red) */
