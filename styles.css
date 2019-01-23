@@ -40,7 +40,10 @@ table.wkmods {
   border: 1px solid #1C6EA4;
   background-color: #EEEEEE;
   text-align: left;
-  font-style:
+  box-shadow: 0 0 25px 0 #7ccb29;
+  width: auto;
+  height: 200px;"
+  border="4" 
 }
 
 table.wkmods tr:nth-child(even) {
