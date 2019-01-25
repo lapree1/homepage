@@ -30,6 +30,9 @@ background: #FFFFFF
 }
 
 .stories {
+}
+
+mod2q1 p{
 
 }
 
@@ -64,6 +67,7 @@ background: #FFFFFF
 
 table.wkmods {
   border: 1px solid #1C6EA4;
+  width: -moz-available;
   width: auto;
   height: 200px;"
   border: 1px solid #1C6EA4;
