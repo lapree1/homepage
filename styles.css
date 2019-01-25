@@ -68,7 +68,7 @@ mod2q1 p{
 table.wkmods {
   border: 1px solid #1C6EA4;
   width: -moz-available;
-  width: auto;
+  font-size: larger;
   height: 200px;"
   border: 1px solid #1C6EA4;
   background-color: #23445FCC;
