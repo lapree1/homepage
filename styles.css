@@ -11,6 +11,7 @@ body {
 
 #button{
    background-image: url("bg3-paint.jpg)");
+
 }
 
 #button.toggled{
@@ -156,6 +157,13 @@ table.wkmods tr:nth-child(even) {
   font-style: italic;
 }
 
+.btn{
+	font-size: 20px;
+	font-style: normal;
+	line-height: 1.4;
+	font-weight: 275;
+}
+
 .myintro {
     font-family: Palatino fantasy;
     padding-left: 45px;
@@ -174,5 +182,5 @@ table.wkmods tr:nth-child(even) {
 
 /* Adding things for the Jquery stuff */
 $('.btn').on('click', function(){
-  $('body').css('background-image', 'url(https://www.pickthebrain.com/blog/wp-content/uploads/2015/12/8-things-successful-people-perform-differently-from-others.jpg)')
+  $('body').css('background-image', 'url(bg4-kid.jpg)')
 })
