@@ -182,5 +182,5 @@ table.wkmods tr:nth-child(even) {
 
 /* Adding things for the Jquery stuff */
 $('.btn').on('click', function(){
-  $('body').css('background-image', 'url(bg4-kid.jpg)')
+  $('body').css('background', 'url(bg4-kid.jpg)')
 })
