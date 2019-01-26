@@ -49,7 +49,6 @@ background: #FFFFFF
 /* Header Sections modifications*/
  h1, h2 {
      font-family: 'Caveat';
-     font-weight: 400;
      text-align:left;
      font-size: 35px;
      color: #EDF2F4;
@@ -136,11 +135,8 @@ table.wkmods tr:nth-child(even) {
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
-  line-height: 26.4px;
   font-weight: 900;
   text-indent: 5em;
-  margin-left: 2em;
-  margin-right: 2em;
 }
 
 .important {
