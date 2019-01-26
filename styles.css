@@ -53,7 +53,9 @@ background: #FFFFFF
      text-align:left;
      font-size: 35px;
      color: #EDF2F4;
+     text-indent: initial;
 }
+
 
  li {
      width: auto;
