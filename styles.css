@@ -26,16 +26,17 @@ img {
    clip-path: inset(10px 20px 30px 40px);
 }
 
-body#tinymce {
+#tinymce {
 background: #FFFFFF
 }
 
 .stories {
+  font-size: xx-large;
+  color: darkmagenta;
+  font-weight: lighter;
+  text-indent: 2em;
 }
 
-.mod2q1 p{
-
-}
 
 .link {
   color: #FF0000;
@@ -49,9 +50,8 @@ background: #FFFFFF
  h1, h2 {
      font-family: 'Caveat';
      font-weight: 400;
-     text-align:justify;
+     text-align:left;
      font-size: 35px;
-     margin-top: 0;
      color: #EDF2F4;
 }
 
@@ -70,8 +70,7 @@ table.wkmods {
   border: 1px solid #1C6EA4;
   width: -moz-available;
   font-size: larger;
-  height: 200px;"
-  border: 1px solid #1C6EA4;
+  height: 200px;
   background-color: #23445FCC;
   /*box-shadow: 0 0 25px 0 #2a1ea5;*/
   color: yellow;
@@ -135,11 +134,8 @@ table.wkmods tr:nth-child(even) {
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
   line-height: 26.4px;
-  font-style: italic;
   font-weight: 900;
-  line-height: 1.6;
   text-indent: 5em;
   margin-left: 2em;
   margin-right: 2em;
