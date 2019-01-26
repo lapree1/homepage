@@ -79,6 +79,7 @@ table.wkmods {
   background-color: #23445FCC;
   /*box-shadow: 0 0 25px 0 #2a1ea5;*/
   color: yellow;
+  width: -webkit-fill-available
 
 }
 
