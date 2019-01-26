@@ -164,6 +164,13 @@ table.wkmods tr:nth-child(even) {
 	font-weight: 275;
 }
 
+.b1{
+	font-size: 20px;
+	font-style: normal;
+	line-height: 1.4;
+	font-weight: 275;
+}
+
 .myintro {
     font-family: Palatino fantasy;
     padding-left: 45px;
@@ -183,4 +190,11 @@ table.wkmods tr:nth-child(even) {
 /* Adding things for the Jquery stuff */
 $('.btn').on('click', function(){
   $('body').css('background', 'url(bg4-kid.jpg)')
-})
+});
+
+
+$(document).ready(function() {
+  $("button#b1").on("click", function() {
+    $("img").hide();
+  });
+});
