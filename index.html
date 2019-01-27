@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ELH's PPC Homepage</title>
     <style type="text/css">
     </style>
+    <script src="jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -146,6 +146,33 @@
     </div>
     </main>
     <script src="jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script>
+
+      $(document).ready(function() {
+        $("button#b1").on("click", function() {
+          $("img").hide();
+      })}
+
+      $(document).ready(function() {
+        $("button#b1").on("click",function(){$("img").hide()
+      })}
+
+      $(document).ready(function(){
+        if ($.browser.msie && $.browser.version == 7)
+        {
+          $(".tablecell").wrap("<td />");
+          $(".tablerow").wrap("<tr />");
+          $(".table").wrapInner("<table />");
+        })};
+
+      $(document).ready(function(){
+        $('.btn').on('click', function(){
+          $('body').css('background', 'url(bg4-kid.jpg)')
+        })};
+
+        </script>
 </body>
 
 </html>
