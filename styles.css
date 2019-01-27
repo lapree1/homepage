@@ -195,22 +195,8 @@ $("button#b1").on("click",function(){
   $("img").hide();
   });
 
-$(document).ready(function() {
 $("button#b1").on("click", function() {
-  $("img").hide();
-})}
 
-$(document).ready(function() {
-  $("button#b1").on("click",function(){$("img").hide()
-})}
-
-$(document).ready(function(){
-    if ($.browser.msie && $.browser.version == 7)
-      {
-        $(".tablecell").wrap("<td />");
-        $(".tablerow").wrap("<tr />");
-        $(".table").wrapInner("<table />");
-      })};
 
 $(document).ready(function(){
     $('.btn').on('click', function(){
