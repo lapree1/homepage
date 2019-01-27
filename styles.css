@@ -185,6 +185,9 @@ table.wkmods tr:nth-child(even) {
      text-align: center;
 }
 
+$(document).ready(function(){alert("hello")}); alert("good bye”)
+
+
 /* Adding things for the Jquery stuff */
 $('.btn').on('click', function(){
   $('body').css('background', 'url(bg4-kid.jpg)')
