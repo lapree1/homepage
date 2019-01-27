@@ -53,7 +53,7 @@ $(document).ready(function(){
 }
 
 .stories {
-  font-size: xx-large;
+  /*font-size: xx-large;*/
   color: darkmagenta;
   font-weight: lighter;
   text-indent: 2em;
@@ -155,10 +155,10 @@ table.wkmods tr:nth-child(even) {
 .content-wrap {
   overflow: hidden;
   font-family: Arial, Geneva, Helvetica, sans-serif, cursive;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 900;
+  font-weight: 500;
   text-indent: 5em;
 }
 
