@@ -5,6 +5,10 @@ body {
      background-size: cover;
      /* margin-top: 80px; */
      padding: 30px;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
 
 }
 
