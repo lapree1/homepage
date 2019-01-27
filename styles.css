@@ -188,18 +188,3 @@ table.wkmods tr:nth-child(even) {
  footer {
      text-align: center;
 }
-
-/* Adding things for the Jquery stuff */
-<script>
-$("button#b1").on("click",function(){
-  $("img").hide();
-  });
-
-$("button#b1").on("click", function() {
-
-
-$(document).ready(function(){
-    $('.btn').on('click', function(){
-      $('body').css('background', 'url(bg4-kid.jpg)')
-    })};
-</script>
