@@ -1,10 +1,9 @@
-/* Adding things for the Jquery stuff */
-<script> /* Opening the Script */
+<script>
 
-
-$("button#b1").on("click",function(){
-  $("img").hide();
+$(document).ready(function() {
+  $("button#b1").on("click", function() {
+    $("img").hide();
+  });
 });
 
-
-</script> /*Closing the script*/
+</script>
