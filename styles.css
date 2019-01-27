@@ -19,15 +19,6 @@ img {
 
 }
 
-$(document).ready(function(){
-  if ($.browser.msie && $.browser.version == 7)
-  {
-    $(".tablecell").wrap("<td />");
-    $(".tablerow").wrap("<tr />");
-    $(".table").wrapInner("<table />");
-  }
-});
-
 .c1 {
   border-radius: 40px;
    /*clip-path: inset(10px 20px 30px 40px);*/
@@ -210,3 +201,12 @@ $(document).ready(function() {
 $(document).ready(function() {
   $("button#b1").on("click",function(){$("img").hide()
 })}
+
+$(document).ready(function(){
+  if ($.browser.msie && $.browser.version == 7)
+  {
+    $(".tablecell").wrap("<td />");
+    $(".tablerow").wrap("<tr />");
+    $(".table").wrapInner("<table />");
+  }
+});
