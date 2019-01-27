@@ -9,7 +9,7 @@ body {
      -o-background-size: cover;
      background-size: cover;
      background-color: #69BAB1B3;
-
+     background-image:url("http://farm1.static.flickr.com/159/345009210_1f826cd5a1_m.jpg")
 }
 
 img {
@@ -132,7 +132,7 @@ table.wkmods tr:nth-child(even) {
 }
 
 /* Add a color to the active/current link */
- .active {
+.active {
      color: white;
 }
 
@@ -176,6 +176,10 @@ table.wkmods tr:nth-child(even) {
     margin-top: 10px;
 }
 
+.big {
+  font-size: : 2em
+}
+
 /* Header & Footer ------------------------------------*/
  header {
      background: #2B2D42;
@@ -185,28 +189,8 @@ table.wkmods tr:nth-child(even) {
      text-align: center;
 }
 
-$(document).ready(function(){alert("hello")}); alert("good bye”)
-
-
 /* Adding things for the Jquery stuff */
-$('.btn').on('click', function(){
-  $('body').css('background', 'url(bg4-kid.jpg)')
-});
 
-
-$(document).ready(function() {
-  $("button#b1").on("click", function() {
-    $("img").hide();
-})}
-
-$(document).ready(function() {
-  $("button#b1").on("click",function(){$("img").hide()
-})}
-
-$(document).ready(function(){
-  if ($.browser.msie && $.browser.version == 7)
-  {
-    $(".tablecell").wrap("<td />");
-    $(".tablerow").wrap("<tr />");
-    $(".table").wrapInner("<table />");
-});
+$("button#b1").on("click",function(){
+  $("img").hide();
+  });
