@@ -40,8 +40,12 @@ $(document).ready(function(){
 
 .c2 {
   border-radius: 40px;
-  clip-path: inset(10px 20px 30px 40px);
-  margin-top: 1%;
+   /*clip-path: inset(10px 20px 30px 40px);*/
+   /*-webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, inset 0px 0px 18px 2px rgba(196,255,34,0);*/
+   background: #9400D3;
+   margin-left: 35%;
+   margin-right: 35%;
+   margin-top: 1%;
 }
 
 #tinymce {
