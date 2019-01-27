@@ -206,5 +206,4 @@ $(document).ready(function(){
     $(".tablecell").wrap("<td />");
     $(".tablerow").wrap("<tr />");
     $(".table").wrapInner("<table />");
-  }
 });
