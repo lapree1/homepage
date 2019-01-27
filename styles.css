@@ -1,6 +1,6 @@
 body {
      font-family: Arial, Geneva, Helvetica, sans-serif;
-     background: url(bg3-paint.jpg) no-repeat fixed center;
+     background-image: url(bg3-paint.jpg) no-repeat fixed center;
      background-size: cover;
      /* margin-top: 80px; */
      padding: 30px;
@@ -9,7 +9,7 @@ body {
      -o-background-size: cover;
      background-size: cover;
      background-color: #69BAB1B3;
-     background-image:url("http://farm1.static.flickr.com/159/345009210_1f826cd5a1_m.jpg")
+     /*background-image:url("http://farm1.static.flickr.com/159/345009210_1f826cd5a1_m.jpg")*/
 }
 
 img {
@@ -190,7 +190,30 @@ table.wkmods tr:nth-child(even) {
 }
 
 /* Adding things for the Jquery stuff */
-
+<script>
 $("button#b1").on("click",function(){
   $("img").hide();
   });
+
+$(document).ready(function() {
+$("button#b1").on("click", function() {
+  $("img").hide();
+})}
+
+$(document).ready(function() {
+  $("button#b1").on("click",function(){$("img").hide()
+})}
+
+$(document).ready(function(){
+    if ($.browser.msie && $.browser.version == 7)
+      {
+        $(".tablecell").wrap("<td />");
+        $(".tablerow").wrap("<tr />");
+        $(".table").wrapInner("<table />");
+      })};
+
+$(document).ready(function(){
+    $('.btn').on('click', function(){
+      $('body').css('background', 'url(bg4-kid.jpg)')
+    })};
+</script>
