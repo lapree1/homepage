@@ -52,14 +52,13 @@ function callBackAnimation(){
       console.log("Animation completed");
 
     }
-
   });
 });
 
-$("id=mod1q2#show").dblclick(function(){
-  $("id=mod1q2").hide();
+$(".c1#show").dblclick(function(){
+  $("c1").hide();
 });
 
-$("mod1q2#show").click(function(){
-  $("id=mod1q2").show();
+$(".c1#show").click(function(){
+  $(".c1").show();
 });
