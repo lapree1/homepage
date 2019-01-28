@@ -190,10 +190,11 @@ nav {
     background: goldenrod;
     box-shadow: 0 0 25px 0 #000;
     position: absolute;
-    top: 50px;
+    top: 25px;
+    margin-left: 40px;
     right: 38px;
-    left: 78px;
-    height: 20%;
+    width: 555px;
+    height: 18%;
 }
 
 nav ul {
