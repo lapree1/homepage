@@ -38,7 +38,7 @@ $('.btn').on('dblclick', function(){
 });
 
 $(document).ready(function(){
-  $("button#destroy").click(function(){
+  $("button#shrink").click(function(){
     var div = $("div");
     runAnimation();
     function runAnimation(){
