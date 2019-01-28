@@ -55,3 +55,11 @@ function callBackAnimation(){
 
   });
 });
+
+$("id=mod1q2#show").dblclick(function(){
+  $("id=mod1q2").hide();
+});
+
+$("mod1q2#show").click(function(){
+  $("id=mod1q2").show();
+});
