@@ -35,4 +35,22 @@ $("h2.important").css({
 
 $('.btn').on('dblclick', function(){
   $('body').css('background-image', 'url(bg5-hatman.jpg)')
-})
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");
+    runAnimation();
+    function runAnimation(){
+      div.animate({height:300},"slow");
+      div.animate({width:300},"slow");
+      div.css("background-color","green");
+      div.animate({height:100},"slow");
+      div.animate({width:100},"slow",callBackAnimation);
+    }
+function callBackAnimation(){
+      alert("Animation completed");
+    }
+
+  });
+});
