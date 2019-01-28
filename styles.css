@@ -65,7 +65,7 @@ img {
 }
 
 
- li {
+li {
      width: auto;
      word-wrap: normal;
 }
@@ -88,10 +88,6 @@ table.wkmods {
 
 }
 
-table.wkmods tr:nth-child(even) {
-  background: #D0E4F5;
-  background-color: #47C91FE6;
-}
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
 .navibar {
@@ -134,7 +130,7 @@ table.wkmods tr:nth-child(even) {
 }
 
 /* List Setting Ordered List*/
- ol {
+ol {
      margin: 0 1.5em 0 1.5em;
 }
 /* Wrapping the intro content */
@@ -186,46 +182,56 @@ table.wkmods tr:nth-child(even) {
      text-align: center;
 }
 
-  nav {
+nav {
     float:left;
     margin-left: -40px;
     background: goldenrod;
     box-shadow: 0 0 25px 0 #000;
-  }
-  nav ul {
+}
+
+nav ul {
     text-align:center;
-  }
-  nav ul li {
+}
+
+nav ul li {
     float:left;
     display:inline;
-  }
-  nav ul li:hover {
+}
+
+nav ul li:hover {
     background:#E6E6E6;
-  }
-  nav ul li a {
+}
+
+nav ul li a {
     display:block;
     padding:15px 25px;
     color:#444;
-  }
-  nav ul li ul {
+}
+
+nav ul li ul {
     position:absolute;
     width:110px;
     background:#FFF;
-  }
-  nav ul li ul li {
+}
+
+nav ul li ul li {
     width:110px;
-  }
-  nav ul li ul li a {
+}
+
+nav ul li ul li a {
     display:block;
     padding:15px 10px;
     color:#444;
-  }
-  nav ul li ul li:hover a {
+}
+
+nav ul li ul li:hover a {
     background:#F7F7F7;
-  }
-  nav ul li ul.fallback {
+}
+
+nav ul li ul.fallback {
     display:none;
-  }
-  nav ul li:hover ul.fallback {
+}
+
+nav ul li:hover ul.fallback {
     display:block;
-  }
+}
