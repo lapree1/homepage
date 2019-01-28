@@ -186,7 +186,6 @@ table.wkmods tr:nth-child(even) {
      text-align: center;
 }
 
-  nav {background:#FFF;float:left;}
   nav ul {text-align:center;}
   nav ul li {float:left;display:inline;}
   nav ul li:hover {background:#E6E6E6;}
