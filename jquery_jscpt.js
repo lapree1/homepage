@@ -1,8 +1,6 @@
 
-$(document).ready(function() {
-  $("button#b1").on("click", function() {
-    $("img").hide();
-  });
+$("button#b1").on("click", function() {
+  $("img").hide();
 });
 
 $('nav li ul').hide().removeClass('fallback');
