@@ -187,6 +187,13 @@ nav {
     margin-left: -40px;
     background: goldenrod;
     box-shadow: 0 0 25px 0 #000;
+    background: goldenrod;
+    box-shadow: 0 0 25px 0 #000;
+    position: absolute;
+    top: 50px;
+    right: 38px;
+    left: 78px;
+    height: 20%;
 }
 
 nav ul {
