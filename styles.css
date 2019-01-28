@@ -9,7 +9,7 @@ body {
      -o-background-size: cover;
      background-size: cover;
      background-color: #69BAB1B3;
-     /*background-image:url("http://farm1.static.flickr.com/159/345009210_1f826cd5a1_m.jpg")*/
+     background-image: url(bg3-paint.jpg) no-repeat fixed center;
 }
 
 p.img {

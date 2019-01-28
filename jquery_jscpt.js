@@ -22,3 +22,7 @@ $("button#goAway").on("click", function() {
 });
 
 $("img#dramatic").slideDown(1500);
+
+$('.btn').on('click', function(){
+  $('body').css('background-image', 'url(https://www.pickthebrain.com/blog/wp-content/uploads/2015/12/8-things-successful-people-perform-differently-from-others.jpg)')
+})
