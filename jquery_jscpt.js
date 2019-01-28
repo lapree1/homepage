@@ -1,6 +1,6 @@
 
 $("button#b1").on("click", function() {
-  $("c1").hide();
+  $("img.c1").hide();
 });
 
 $('nav li ul').hide().removeClass('fallback');
@@ -44,7 +44,7 @@ $(document).ready(function(){
     function runAnimation(){
       div.animate({height:300},"slow");
       div.animate({width:300},"slow");
-      div.css("background-color","green");
+      div.css("background-color","black");
       div.animate({height:100},"slow");
       div.animate({width:100},"slow",callBackAnimation);
     }
