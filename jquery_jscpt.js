@@ -38,7 +38,7 @@ $('.btn').on('dblclick', function(){
 });
 
 $(document).ready(function(){
-  $("button").click(function(){
+  $("button#destroy").click(function(){
     var div = $("div");
     runAnimation();
     function runAnimation(){
@@ -49,7 +49,8 @@ $(document).ready(function(){
       div.animate({width:100},"slow",callBackAnimation);
     }
 function callBackAnimation(){
-      alert("Animation completed");
+      console.log("Animation completed");
+
     }
 
   });
