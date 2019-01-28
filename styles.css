@@ -258,3 +258,7 @@ nav ul li ul.fallback {
 nav ul li:hover ul.fallback {
     display:block;
 }
+
+img#dramatic {
+  display: none;
+}

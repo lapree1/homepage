@@ -12,3 +12,13 @@ $('nav li').hover(
     $('ul', this).stop().slideUp(100);
   }
 );
+
+$("button#make_visible").on("click", function() {
+  $("img#dramatic").slideDown();
+});
+
+$("button#goAway").on("click", function() {
+  $("img#dramatic").slideUp();
+});
+
+$("img#dramatic").slideDown(1500);
