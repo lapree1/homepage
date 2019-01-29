@@ -55,16 +55,17 @@ function callBackAnimation(){
   });
 });
 
-$(".c1#show").dblclick(function(){
+$("img#show").dblclick(function(){
   $("c1").hide();
 });
 
-$(".c1#show").click(function(){
+$("img#show").click(function(){
   $(".c1").show();
 });
 
 $("img").on({"mouseover" : function() {
-    var orginal = "img";
+    var orginal = "";
+    img = orginal;
     this.src = 'pic01-woody.jpg';
   },
   "mouseout" : function() {
