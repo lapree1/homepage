@@ -2,7 +2,6 @@ body {
      font-family: Arial, Geneva, Helvetica, sans-serif;
      background: url(bg3-paint.jpg) no-repeat fixed center;
      background-size: cover;
-     /* margin-top: 80px; */
      padding: 30px;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -48,7 +47,6 @@ img.c3 {
 }
 
 .stories {
-  /*font-size: xx-large;*/
   color: darkmagenta;
   font-weight: lighter;
   text-indent: 2em;
@@ -90,7 +88,6 @@ table.wkmods {
   font-size: larger;
   height: 200px;
   background-color: #23445FCC;
-  /*box-shadow: 0 0 25px 0 #2a1ea5;*/
   color: yellow;
   width: -webkit-fill-available
 
@@ -101,7 +98,6 @@ table.wkmods {
 .navibar {
   font-weight: bold;
   align-items: center;
-  /*box-shadow: 0 0 25px 0 #000;*/
   overflow: hidden;
   top: 0;
   left: 0;

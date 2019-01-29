@@ -88,10 +88,10 @@ $("img.c3").on({"mouseover" : function() {
 });
 
 $(document).ready(function(){
-  $("#hide").click(function(){
+  $("#hideps").click(function(){
     $("p").hide();
   });
-  $("#show").click(function(){
+  $("#showps").click(function(){
     $("p").show();
   });
 });
