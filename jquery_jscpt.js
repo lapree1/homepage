@@ -55,11 +55,11 @@ function callBackAnimation(){
   });
 });
 
-$("img#show").dblclick(function(){
+$("img.show").dblclick(function(){
   $("c1").hide();
 });
 
-$("img#show").click(function(){
+$("img.show").click(function(){
   $(".c1").show();
 });
 
@@ -83,6 +83,6 @@ $("img.c3").on({"mouseover" : function() {
     this.src = 'pic01-woody.jpg';
   },
   "mouseout" : function() {
-    this.src= 'batman.jpg';
+    this.src="http://placekitten.com/480/480"
   }
 });
