@@ -67,6 +67,22 @@ $("img.c1").on({"mouseover" : function() {
     this.src = 'pic01-woody.jpg';
   },
   "mouseout" : function() {
+    this.src="http://placekitten.com/480/480"
+  }
+});
+
+$("img.c2").on({"mouseover" : function() {
+    this.src = 'pic01-woody.jpg';
+  },
+  "mouseout" : function() {
+    this.src= 'batman.jpg';
+  }
+});
+
+$("img.c3").on({"mouseover" : function() {
+    this.src = 'pic01-woody.jpg';
+  },
+  "mouseout" : function() {
     this.src= 'batman.jpg';
   }
 });
