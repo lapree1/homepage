@@ -55,12 +55,12 @@ function callBackAnimation(){
   });
 });
 
-$("img.show").dblclick(function(){
-  $("c1").hide();
+$("img.hide").click(function(){
+  $("img").hide();
 });
 
-$("img.show").click(function(){
-  $(".c1").show();
+$("button.show").click(function(){
+  $("img.c1,img.c2,img.c3").show();
 });
 
 $("img.c1").on({"mouseover" : function() {
