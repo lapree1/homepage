@@ -55,11 +55,11 @@ function callBackAnimation(){
   });
 });
 
-$("img.hide").click(function(){
-  $("img").hide();
+$(".hide").click(function(){
+  $("img.c1,img.c2,img.c3").hide();
 });
 
-$("button.show").click(function(){
+$(".show").click(function(){
   $("img.c1,img.c2,img.c3").show();
 });
 
