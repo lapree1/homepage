@@ -64,9 +64,10 @@ $(".c1#show").click(function(){
 });
 
 $("img").on({"mouseover" : function() {
-    this.src = 'bg5-hatman.jpg';
+    var orginal = "img";
+    this.src = 'pic01-woody.jpg';
   },
   "mouseout" : function() {
-    this.src='';
+    this.src= orginal;
   }
 });
