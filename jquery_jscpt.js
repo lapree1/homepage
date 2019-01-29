@@ -86,3 +86,12 @@ $("img.c3").on({"mouseover" : function() {
     this.src="http://placekitten.com/480/480"
   }
 });
+
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
