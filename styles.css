@@ -250,7 +250,11 @@ img#dramatic {
 }
 
 button{
- margin: 50px;
  background-color: : blue;
  color:inherit;
+}
+
+button:hover{
+ background:green;
+ color: white
 }
