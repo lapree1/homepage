@@ -71,9 +71,9 @@ $("img.c3").on({"mouseover" : function() {
 
 $(document).ready(function(){
   $("#hideps").click(function(){
-    $("p").hide();
+    $("p.mod2q1.stories").hide();
   });
   $("#showps").click(function(){
-    $("p").show();
+    $("p.mod2q1.stories").show();
   });
 });
