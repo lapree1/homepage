@@ -77,22 +77,3 @@ $(document).ready(function(){
     $("p").show();
   });
 });
-
-$(document).ready(function() {
-$( ".runani" ).click(function() {
-$( "table.wkmods" ).animate({
- width: "toggle",
- height: "toggle"
-}, {
- duration: 5000,
- specialEasing: {
-   width: "easeInOutSine",
-   height: "easeInOutSine",
- },
- complete: function() {
-   alert( "Animation complete!" );
- }
-});
-});
-
-});
