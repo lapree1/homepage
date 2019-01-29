@@ -63,11 +63,10 @@ $(".c1#show").click(function(){
   $(".c1").show();
 });
 
-$("img").on({
- "mouseover" : function() {
+$("img").on({"mouseover" : function() {
     this.src = 'bg5-hatman.jpg';
   },
   "mouseout" : function() {
-    this.src='batman.jpg';
+    this.src='';
   }
 });
