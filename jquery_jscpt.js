@@ -63,12 +63,10 @@ $("img#show").click(function(){
   $(".c1").show();
 });
 
-$("img").on({"mouseover" : function() {
-    var orginal = "";
-    img = orginal;
+$("img#c1").on({"mouseover" : function() {
     this.src = 'pic01-woody.jpg';
   },
   "mouseout" : function() {
-    this.src= orginal;
+    this.src= 'batman.jpg';
   }
 });
