@@ -37,24 +37,6 @@ $('.btn').on('dblclick', function(){
   $('body').css('background-image', 'url(bg5-hatman.jpg)')
 });
 
-$(document).ready(function(){
-  $("shrink").click(function(){
-    var div = $("div");
-    runAnimation();
-    function runAnimation(){
-      div.animate({height:300},"slow");
-      div.animate({width:300},"slow");
-      div.css("background-color","black");
-      div.animate({height:100},"slow");
-      div.animate({width:100},"slow",callBackAnimation);
-    }
-function callBackAnimation(){
-      console.log("Animation completed");
-
-    }
-  });
-});
-
 $(".hide").click(function(){
   $("img.c1,img.c2,img.c3").hide();
 });
@@ -97,8 +79,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-$( "#runani" ).click(function() {
-$( "#wkmods" ).animate({
+$( ".runani" ).click(function() {
+$( "table.wkmods" ).animate({
  width: "toggle",
  height: "toggle"
 }, {

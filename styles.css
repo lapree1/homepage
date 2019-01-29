@@ -248,3 +248,11 @@ nav ul li:hover ul.fallback {
 img#dramatic {
   display: none;
 }
+<style>
+
+button{
+ margin: 50px;
+ background-color: : blue;
+ color:inherit;
+}
+</style>
