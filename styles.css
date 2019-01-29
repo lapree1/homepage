@@ -52,7 +52,6 @@ img.c3 {
   text-indent: 2em;
 }
 
-
 .link {
   color: #FF0000;
 } /* CSS link color (red) */
@@ -114,7 +113,6 @@ table.wkmods {
   text-decoration: none;
   font-size: 20px;
 }
-
 
 /* Change the color of links on hover */
 .navibar a:hover {
