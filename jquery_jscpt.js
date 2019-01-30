@@ -70,10 +70,10 @@ $("img.c3").on({"mouseover" : function() {
 });
 
 $(document).ready(function(){
-  $("#hideps").click(function(){
-    $("p#mod2q1.stories").hide();
+  $("button#hideps").click(function(){
+    $("div#peek").hide();
   });
-  $("#showps").click(function(){
-    $("p#mod2q1.stories").show();
+  $("button#showps").click(function(){
+    $("div#peek").show();
   });
 });
