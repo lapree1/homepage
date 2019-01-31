@@ -159,6 +159,7 @@ ol {
 	font-style: normal;
 	line-height: 1.4;
 	font-weight: normal;
+  border-radius: 30px;
 }
 
 .b1{
@@ -195,6 +196,7 @@ nav {
     margin-left: 40px;
     right: 38px;
     width: 555px;
+    border-radius: 30px;
 }
 
 nav ul {
@@ -251,9 +253,11 @@ img#dramatic {
 button{
  background-color: : blue;
  color:inherit;
+border-radius: 30px;
 }
 
 button:hover{
  background:green;
- color: white
+ color: white;
+   border-radius: 30px;
 }
