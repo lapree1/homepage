@@ -90,8 +90,12 @@ table.wkmods {
   background-color: #23445FCC;
   color: yellow;
   width: -webkit-fill-available
-
 }
+
+table.wkmods.a {
+color: white
+}
+
 
 /* Defining navigation bar */
 /* Add a black background color to the top navigation */
